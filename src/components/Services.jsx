@@ -11,7 +11,7 @@ loadService();
   }, []);
 
   const loadService = async () => {
-    const result = await axios.get("http://localhost:3003/service");
+    const result = await axios.get("https://junaid7042.herokuapp.com/service");
     setService(result.data.reverse());
 
   };

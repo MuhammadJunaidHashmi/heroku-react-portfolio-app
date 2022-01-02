@@ -5,6 +5,23 @@ import { useHistory, useParams } from "react-router-dom";
 const EditService = () => {
   let history = useHistory();
 
+  
+  const [ips, setIPS] = useState([]);
+
+  //creating function to load ip address from the API
+  const getData = async () => {
+    const res = await axios.get('https://geolocation-db.com/json/')
+    console.log(res.data.state);
+    setIPS(res.data);
+  }
+  
+  useEffect( () => {
+    //passing getData method to the lifecycle method
+    getData();
+  }, [])
+
+
+
   const {id} = useParams();
 
   const current = new Date().toLocaleString();
@@ -26,16 +43,19 @@ const EditService = () => {
   };
 
   const onSubmitBtn = (e) => {
-    setService({ ...service, updateDate: e.target.name });
+ 
+    setService({ ...service, updateDate: current,ip:ips.IPv4,address: `${ips.state}, ${ips.city}`});  
+  
   };
 
   useEffect(() => {
+    getData();
     loadService();
       }, []);
   const onSubmit = async (e) => {
 
     e.preventDefault();
-    await axios.put(`http://localhost:3003/service/${id}`, service);
+    await axios.put(`https://junaid7042.herokuapp.com/service/${id}`, service);
     history.push("/services");
   };
 
