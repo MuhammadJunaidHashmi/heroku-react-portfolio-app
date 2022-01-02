@@ -46,7 +46,7 @@ const AddNewService = () => {
   const onSubmit = async (e) => {
 
     e.preventDefault();
-    await axios.post("https://junaid7042.herokuapp.com/service", service);
+    await axios.post("https://junaid7042.herokuapp.com/api/service", service);
     history.push("/services");
    
   };
