@@ -6,11 +6,6 @@ import React, { useState, useEffect } from "react";
 const Card = (props) => {
   let history = useHistory();
 
-
-
-
-
-
   const [service, setService] = useState([]);
 
   useEffect(() => {
@@ -19,14 +14,14 @@ loadService();
 
   }, []);
   const loadService = async () => {
-    const result = await axios.get("http://localhost:3003/service");
+    const result = await axios.get("https://junaid7042.herokuapp.com/service");
     setService(result.data);
 
   };
 
 const deleteService  = async id =>{
  
-  await axios.delete(`http://localhost:3003/service/${id}`);
+  await axios.delete(`https://junaid7042.herokuapp.com/service/${id}`);
   
   history.push("/");
   history.push("/services");

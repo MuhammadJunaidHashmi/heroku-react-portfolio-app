@@ -60,7 +60,7 @@ const EditService = () => {
   };
 
   const loadService = async () => {
-    const result = await axios.get(`http://localhost:3003/service/${id}`);
+    const result = await axios.get(`https://junaid7042.herokuapp.com/service/${id}`);
     setService(result.data);
   };
 
