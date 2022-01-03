@@ -1,18 +1,22 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { Link} from "react-router-dom";
+import useFullPageLoader from ".././hooks/useFullPageLoader";
 import Card from "./Card";
 
 const Services = () => {
   const [service, setService] = useState([]);
+  const [loader, showLoader, hideLoader] = useFullPageLoader();
 
   useEffect(() => {
 loadService();
   }, []);
 
   const loadService = async () => {
+    showLoader();
     const result = await axios.get("https://junaid7042-api.herokuapp.com/api/service");
     setService(result.data.reverse());
+    hideLoader();
 
   };
   return (
@@ -45,13 +49,14 @@ loadService();
       <br></br>
       <br></br>
     
-     
+      <div style={{display: "flex", alignItems: "center",justifyContent: "center" }}> {loader}</div>
       {service.map((serv) => (
 
 
 <Card data={serv}> </Card>
 
       ))}
+       
       </div>
    
 
