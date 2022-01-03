@@ -55,12 +55,12 @@ const EditService = () => {
   const onSubmit = async (e) => {
 
     e.preventDefault();
-    await axios.put(`https://junaid7042.herokuapp.com/api/service/${id}`, service);
+    await axios.put(`https://junaid7042-api.herokuapp.com/api/service/${id}`, service);
     history.push("/services");
   };
 
   const loadService = async () => {
-    const result = await axios.get(`https://junaid7042.herokuapp.com/api/service/${id}`);
+    const result = await axios.get(`https://junaid7042-api.herokuapp.com/api/service/${id}`);
     setService(result.data);
   };
 

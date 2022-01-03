@@ -14,14 +14,14 @@ loadService();
 
   }, []);
   const loadService = async () => {
-    const result = await axios.get("https://junaid7042.herokuapp.com/service");
+    const result = await axios.get("https://junaid7042-api.herokuapp.com/api/service");
     setService(result.data);
 
   };
 
 const deleteService  = async id =>{
  
-  await axios.delete(`https://junaid7042.herokuapp.com/service/${id}`);
+  await axios.delete(`https://junaid7042-api.herokuapp.com/api/service/${id}`);
   
   history.push("/");
   history.push("/services");
