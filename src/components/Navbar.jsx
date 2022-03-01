@@ -7,6 +7,7 @@ function Navbar() {
 
   return (
     <div   >
+
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" >
         <Link className="navbar-brand text-danger Stl"  style={{marginRight: 100}} to="/">
           Junaid7042
@@ -24,7 +25,9 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className=" collapse navbar-collapse show" id="navbarColor01">
+
+
+        <div className=" collapse navbar-collapse" id="navbarColor01">
           <ul className=" navbar-nav mr-auto  ">
             <li className="nav-item  px-md-2"
             
@@ -86,6 +89,8 @@ function Navbar() {
           </Link>
         </div>
       </nav>
+
+
 
 
     </div>
