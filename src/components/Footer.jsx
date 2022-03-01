@@ -29,7 +29,7 @@ const Footer = () => {
           <p href="#!">Desktop App  </p>
         </p>
         <p>
-          <p href="#!">C {"&"} C++ Workes </p>
+          <p href="#!">C {"&"} C++ Programming </p>
         </p>
         <p>
           <p href="#!">WireFrame</p>

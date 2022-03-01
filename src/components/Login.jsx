@@ -60,7 +60,7 @@ const Login = () => {
         </div>
         <div className="form-group">
           <a href="#" className="btnForgetPwd">
-            Forget Password?
+            Forgot Password?
           </a>
         </div>
       </div>
