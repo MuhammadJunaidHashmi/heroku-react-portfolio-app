@@ -14,7 +14,7 @@ function Gal() {
           ></img>
 
 <Link to="/login">
-      <p  style={{ padding:10, color: 'white',  }} className=" btn-danger"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
+      <p  style={{ padding:10, color: 'white',  }} className="btn-secondary"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
       </Link>
         </div>
         <div className="col-lg-4 col-md-4 col-xs-6 thumb">
@@ -26,7 +26,7 @@ function Gal() {
           ></img>
           
       <Link to="/login">
-      <p  style={{ padding:10, color: 'white',  }} className=" btn-danger"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
+      <p  style={{ padding:10, color: 'white',  }} className="btn-secondary"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
       </Link>
         </div>
 
@@ -39,7 +39,7 @@ function Gal() {
           ></img>
           
       <Link to="/login">
-      <p  style={{ padding:10, color: 'white',  }} className=" btn-danger"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
+      <p  style={{ padding:10, color: 'white',  }} className="btn-secondary"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
       </Link>
         </div>
 
@@ -52,7 +52,7 @@ function Gal() {
           ></img>
           
       <Link to="/login">
-      <p  style={{ padding:10, color: 'white',  }} className=" btn-danger"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
+      <p  style={{ padding:10, color: 'white',  }} className=" btn-secondary"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
       </Link>
         </div>
 
@@ -66,7 +66,7 @@ function Gal() {
           
        
       <Link to="/login">
-      <p  style={{ padding:10, color: 'white',  }} className=" btn-danger"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
+      <p  style={{ padding:10, color: 'white',  }} className=" btn-secondary"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
       </Link>
         </div>
 
@@ -79,7 +79,7 @@ function Gal() {
           ></img>
       
       <Link to="/login">
-      <p  style={{ padding:10, color: 'white',  }} className=" btn-danger"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
+      <p  style={{ padding:10, color: 'white',  }} className="btn-secondary"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
       </Link>
         </div>
 
@@ -92,7 +92,7 @@ function Gal() {
           ></img>
           
       <Link to="/login">
-      <p  style={{ padding:10, color: 'white',  }} className=" btn-danger"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
+      <p  style={{ padding:10, color: 'white',  }} className="btn-secondary"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
       </Link>
         </div>
 
@@ -105,7 +105,7 @@ function Gal() {
           ></img>
           
       <Link to="/login">
-      <p  style={{ padding:10, color: 'white',  }} className=" btn-danger"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
+      <p  style={{ padding:10, color: 'white',  }} className="btn-secondary"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
       </Link>
         </div>
 
@@ -118,8 +118,9 @@ function Gal() {
           ></img>
           
       <Link to="/login">
-      <p  style={{ padding:10, color: 'white',  }} className=" btn-danger"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
+      <p  style={{ padding:10, color: 'white',  }} className="btn-secondary"><i style={{margin: 5}} className="fa fa-eye"></i>View Code</p>
       </Link>
+      
         </div>
       </div>
     </div>
