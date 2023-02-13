@@ -1,20 +1,20 @@
-import React  from "react";
+import React from "react";
 import { Link, NavLink} from "react-router-dom";
+import { useState } from "react";
 //import Gal from "./Gal";
 
 function Navbar() {
-
-
+ 
   return (
     <div   >
 
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" >
+      <nav  class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" >
         <Link className="navbar-brand text-danger Stl"  style={{marginRight: 100}} to="/">
           Junaid7042
         </Link>
         
         <button
-          className="navbar-toggler"
+          class="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarColor01"
@@ -22,18 +22,18 @@ function Navbar() {
           aria-expanded="true"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
 
 
 
-        <div className=" collapse navbar-collapse show" id="navbarColor01">
-          <ul className=" navbar-nav mr-auto  ">
-            <li className="nav-item  px-md-2"
+        <div class=" collapse navbar-collapse show" id="navbarColor01">
+          <ul class=" navbar-nav mr-auto  ">
+            <li class="nav-item  px-md-2"
             
            
             >
-              <NavLink className=" nav-link  btn " exact to="/" 
+              <NavLink class=" nav-link  btn " exact to="/" 
                
           data-toggle="collapse"
           data-target="#navbarColor01"
@@ -42,8 +42,8 @@ function Navbar() {
               
             
             </li>
-            <li className="nav-item px-md-2 ">
-            <NavLink className="nav-link btn " exact to="/about"
+            <li class="nav-item px-md-2 ">
+            <NavLink class="nav-link btn " exact to="/about"
             
           data-toggle="collapse"
           data-target="#navbarColor01"
@@ -51,8 +51,8 @@ function Navbar() {
             >About </NavLink>
               
             </li>
-            <li className="nav-item px-md-2">
-            <NavLink className="nav-link btn"exact  to="/services"
+            <li class="nav-item px-md-2">
+            <NavLink class="nav-link btn"exact  to="/services"
             
             data-toggle="collapse"
             data-target="#navbarColor01"
@@ -60,8 +60,8 @@ function Navbar() {
   
             >Services </NavLink>
                </li>
-               <li className="nav-item px-md-2">
-            <NavLink className="nav-link btn"exact  to="/projects"
+               <li class="nav-item px-md-2">
+            <NavLink class="nav-link btn"exact  to="/projects"
                       data-toggle="collapse"
                       data-target="#navbarColor01"
                       aria-expanded="true"
@@ -69,8 +69,8 @@ function Navbar() {
             >Projects </NavLink>
                </li>
         
-            <li className="nav-item px-md-2">
-            <NavLink className="nav-link btn "exact  to="/contact-us"
+            <li class="nav-item px-md-2">
+            <NavLink class="nav-link btn "exact  to="/contact-us"
                       data-toggle="collapse"
                       data-target="#navbarColor01"
                       aria-expanded="true"
@@ -79,8 +79,8 @@ function Navbar() {
               
             </li>
           </ul>
-          <Link className="nav-link btn "exact  to="/login">
-          <button className="btn btn-circle btn-sm btn-danger"><i className="fa fa-sign-in"
+          <Link class="nav-link btn "exact  to="/login">
+          <button class="btn btn-circle btn-sm btn-danger"><i className="fa fa-sign-in"
                     data-toggle="collapse"
                     data-target="#navbarColor01"
                     aria-expanded="true"
