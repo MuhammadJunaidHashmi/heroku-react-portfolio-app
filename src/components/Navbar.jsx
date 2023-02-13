@@ -1,29 +1,16 @@
-import React, { useState } from "react";
+import React  from "react";
 import { Link, NavLink} from "react-router-dom";
-
 //import Gal from "./Gal";
 
 function Navbar() {
- 
-const [classs,setClasss]=useState("collapse navbar-collapse show");
-const [bools,setBools]=useState(false);
 
-function onclickbtn(e)
-  {
-   
-    setBools({ bools: !bools });
-    if(bools)
-    {
-      setClasss({ classs: "collapse navbar-collapse show"});
-    }
-    else{
-      setClasss({ classs: "collapse navbar-collapse" });
-    }
-    
 
-  }
   return (
     <div   >
+
+
+
+
 
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" >
         <Link className="navbar-brand text-danger Stl"  style={{marginRight: 100}} to="/">
@@ -31,21 +18,20 @@ function onclickbtn(e)
         </Link>
         
         <button
-          className="navbar-toggler"
+          className="navbar-toggler collapsed"
           type="button"
           data-toggle="collapse"
           data-target="#navbarColor01"
           aria-controls="navbarColor01"
-          aria-expanded={bools}
+          aria-expanded="false"
           aria-label="Toggle navigation"
-          onClick={onclickbtn}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
 
 
 
-        <div  className={classs} id="navbarColor01">
+        <div className=" collapse navbar-collapse " id="navbarColor01">
           <ul className=" navbar-nav mr-auto  ">
             <li className="nav-item  px-md-2"
             
@@ -55,7 +41,7 @@ function onclickbtn(e)
                
           data-toggle="collapse"
           data-target="#navbarColor01"
-          aria-expanded={bools}
+          aria-expanded="false"
               >Home </NavLink>
               
             
@@ -65,7 +51,7 @@ function onclickbtn(e)
             
           data-toggle="collapse"
           data-target="#navbarColor01"
-          aria-expanded={bools}
+          aria-expanded="false"
             >About </NavLink>
               
             </li>
@@ -74,7 +60,7 @@ function onclickbtn(e)
             
             data-toggle="collapse"
             data-target="#navbarColor01"
-            aria-expanded={bools}
+            aria-expanded="false"
   
             >Services </NavLink>
                </li>
@@ -82,7 +68,7 @@ function onclickbtn(e)
             <NavLink className="nav-link btn"exact  to="/projects"
                       data-toggle="collapse"
                       data-target="#navbarColor01"
-                      aria-expanded={bools}
+                      aria-expanded="false"
             
             >Projects </NavLink>
                </li>
@@ -91,7 +77,7 @@ function onclickbtn(e)
             <NavLink className="nav-link btn "exact  to="/contact-us"
                       data-toggle="collapse"
                       data-target="#navbarColor01"
-                      aria-expanded={bools}
+                      aria-expanded="false"
             
             >Contact Us </NavLink>
               
@@ -101,7 +87,7 @@ function onclickbtn(e)
           <button className="btn btn-circle btn-sm btn-danger"><i className="fa fa-sign-in"
                     data-toggle="collapse"
                     data-target="#navbarColor01"
-                    aria-expanded={bools}
+                    aria-expanded="false"
           
           ></i> login</button>
           </Link>
