@@ -37,7 +37,7 @@ function Navbar() {
                
           data-toggle="collapse"
           data-target="#navbarColor01"
-          aria-expanded="false"
+          aria-expanded="true"
               >Home </NavLink>
               
             
@@ -47,7 +47,7 @@ function Navbar() {
             
           data-toggle="collapse"
           data-target="#navbarColor01"
-          aria-expanded="false"
+          aria-expanded="true"
             >About </NavLink>
               
             </li>
@@ -56,7 +56,7 @@ function Navbar() {
             
             data-toggle="collapse"
             data-target="#navbarColor01"
-            aria-expanded="false"
+            aria-expanded="true"
   
             >Services </NavLink>
                </li>
@@ -64,7 +64,7 @@ function Navbar() {
             <NavLink className="nav-link btn"exact  to="/projects"
                       data-toggle="collapse"
                       data-target="#navbarColor01"
-                      aria-expanded="false"
+                      aria-expanded="true"
             
             >Projects </NavLink>
                </li>
