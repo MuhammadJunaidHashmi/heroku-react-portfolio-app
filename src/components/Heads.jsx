@@ -22,7 +22,7 @@ function Heads() {
             <h1 style={{fontSize: 50}} className="mb-3">HIRE A FRELANCER</h1>
             <a
               className="btn btn-outline-light btn-lg  "
-              href="https://www.fiverr.com/junaid7042"
+              href="/"
               role="button"
               target="_blank"
             >
