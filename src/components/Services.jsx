@@ -38,11 +38,7 @@ loadService();
       <hr  className="w-25 border border-danger"></hr>
 
       <p className="w-75 container">
-        Hi there,I’m Junaid. I’ve over 3 years of experience in programming
-        languages such as c, c++, c#, java, SQL etc. Expertise in web
-        development and also designing wireframe in balsamiq tool. Moreover i
-        have a small team to create animated lyrics videos. My first objective
-        is to provide 100% quality work to the clients.
+       Hi, I'm Junaid Hashmi, a creative full stack web developer. I've over 4 years of experience in Programming Languages such as C, C++, C#, Java, Ruby, SQL etc. Expertise in Web Dev ( MERN & MEAN Stack, ROR , React JS, WordPress) , Mobile Dev (Reactnative). My first objective is to provide 100% quality work to the clients.
       </p>
 
       <br></br>
