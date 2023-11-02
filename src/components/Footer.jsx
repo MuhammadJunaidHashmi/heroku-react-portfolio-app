@@ -26,17 +26,15 @@ const Footer = () => {
       <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 className="text-uppercase mb-4 font-weight-bold">Services</h6>
         <p>
-          <p href="#!">Desktop App  </p>
+          <p href="#!">Web Developement  </p>
         </p>
         <p>
-          <p href="#!">C {"&"} C++ Programming </p>
+          <p href="#!">Mobile App Developement </p>
         </p>
         <p>
-          <p href="#!">WireFrame</p>
+          <p href="#!">Desktop App Developement</p>
         </p>
-        <p>
-          <p href="#!">App Testing</p>
-        </p>
+    
       </div>
       {/* <!-- Grid column --> */}
 
@@ -48,7 +46,7 @@ const Footer = () => {
       <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
         <p>
-          <i className="fas fa-home mr-3"></i>Multani Colony Near Baghbanpura Lahore, Pakistan</p>
+          <i className="fas fa-home mr-3"></i>Shalimar link road, Pakistan</p>
         <p>
           <i className="fas fa-envelope mr-3"></i> hashmijunaid41@gmail.com</p>
         <p>
