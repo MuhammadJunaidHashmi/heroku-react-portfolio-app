@@ -16,7 +16,7 @@ const AboutUs= () => {
           <div className="image" style={{marginTop: 50}}>
             <h3>Junaid hashmi</h3>
             <p>@junaid7042</p>
-            <p>Website {'&'} Desktop Developer, Programmer</p>
+            <p>Software Engineer | React JS developer | Node.js (MERN) Developer | Freelancer</p>
             <p> Lahore, Pakistan</p>
           </div>
               
