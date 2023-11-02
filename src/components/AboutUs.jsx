@@ -55,7 +55,7 @@ const AboutUs= () => {
                   <p><strong>Skills:</strong> <span className="label label-primary">HTML</span>, <span className="label label-primary">CSS</span>, <span className="label label-primary">JAVASCRIPT</span>, <span className="label label-primary">JQUERY</span>, <span className="label label-primary">AJAX</span>, <span className="label label-primary">PHP</span>,  <span className="label label-primary">REACT</span>, <span className="label label-primary">C</span></p>
                 </div>
                 <div className="col-md-6">
-                  <p><strong>Address:</strong> Shalimar Garden, Lahore, Pakistan</p>
+                  <p><strong>Address:</strong> Shalimar link road, Pakistan</p>
                   <p><strong>Phone:</strong> (+92) 306-6118092</p>
                   <p><strong>Reputation:</strong> <span className="text-green"><i className="fa fa-angle-up"></i> 20+</span></p>
       </div>
