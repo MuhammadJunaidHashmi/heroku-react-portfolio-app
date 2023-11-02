@@ -23,12 +23,12 @@ const AboutUs= () => {
           <img style={{width: 200,height: 200}}
             className=" thick-red-border"
             src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/cf42fec2c175e6791540a40a34804322-1606207863911/5af009cb-8b8d-431d-a295-23327c1f93c5.jpg"
-            alt="Profile picture junaid7042."
+            alt="Profile picture junaid."
           ></img>*/}
                  <img style={{width: 200,height: 200}}
             className=" thick-red-border"
             src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/98f1b6a397567036753e1832ba1d28b5-1679203797215/1c6f58fa-8bd9-45e1-bebd-899e79e8d921.png"
-            alt="Profile picture junaid7042."
+            alt="Profile picture junaid."
           ></img>
     
           </div>
@@ -47,7 +47,7 @@ const AboutUs= () => {
               <div className="row">
                 <div className="col-md-6">
                   <p><strong>Email:</strong> <a href="mailto:hashmijunaid41@gmail.com">hashmijunaid41@gmail.com</a></p>
-                  <p><strong>Website:</strong> <a href="http://localhost:3000/">junaid7042</a></p>
+                  <p><strong>Website:</strong> <a href="/">junaid7042</a></p>
                   <p><strong>About:</strong> Web Developer / Mobile Developer</p>
                   <p><strong>Joined on:</strong> Feb 6 <sup>th</sup>, 2019</p>
                   <p><strong>Education:</strong> B.Sc. - Sofware Engineering, COMSATS University Islamabad Lahore Campus, Pakistan</p>
