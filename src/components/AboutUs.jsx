@@ -46,7 +46,7 @@ const AboutUs= () => {
           </hr>
               <div className="row">
                 <div className="col-md-6">
-                  <p><strong>Email:</strong> <a href="mailto:jwilliams@gmail.com">hashmijunaid41@gmail.com</a></p>
+                  <p><strong>Email:</strong> <a href="mailto:hashmijunaid41@gmail.com">hashmijunaid41@gmail.com</a></p>
                   <p><strong>Website:</strong> <a href="http://localhost:3000/">junaid7042</a></p>
                   <p><strong>About:</strong> Web Developer / Mobile Developer</p>
                   <p><strong>Joined on:</strong> Feb 6 <sup>th</sup>, 2019</p>
@@ -71,7 +71,7 @@ const AboutUs= () => {
                 <div className="col-sm-4 stats">
                   <h1>127</h1>
                   <span>Following</span>
-                  <a href ="https://www.fiverr.com/junaid7042" target="_blank">
+                  <a href ="/" target="_blank">
                   <button  className="btn btn-info"><i className="fa fa-user"></i> View Profile</button>
                   </a>
                 </div>
